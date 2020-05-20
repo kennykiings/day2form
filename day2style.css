@@ -1,0 +1,11 @@
+body { border: 15px solid #383838;
+     margin: 15px auto;
+     width: 75%; 
+     max-width: 650px;
+     font-family: Source Sans Pro;
+     background-image: url(day2bgimg.jpg);
+     background-size: 50%;
+     background-position: 25% 25%;
+     color: #bdc3c7;
+ }
+ #butt:hover {background-color: #707070;}

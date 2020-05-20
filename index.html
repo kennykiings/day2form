@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	 <link rel="stylesheet" type="text/css" href="bootstrapd2.css">
+	 <link rel="stylesheet" type="text/css" href="day2style.css">
+	 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+ <form action="http://google.com" method="GET">
+  <p><h1><b>Employee Questionnaire</b></h1></p>
+  <p><hr></p>
+  <p><hr></p>
+  <p><h2><b>Personal Information:</b></h2></p>
+  <p><h3><b name="fullname">Full Name</b></h3></p>
+  <input name="firstname" type="text" placeholder=" first name" required>     <input name="middlename"type="text" placeholder=" middle name" required>     <input name="lastname"type="text" placeholder=" last name" required>
+
+
+  <p><h3><b>Age</b></h3></p>
+  <input type="text" placeholder=" Age" required>
+
+  <p><h3><b>Sex</b></h3></p>
+  <select required>
+    <option>  </option>
+  	<option>Male</option>
+  	<option>Female</option>
+  	<option>Others</option>
+  </select>
+
+  <p><h3><b>Address</b></h3></p>
+  <input type="text" placeholder=" Address">
+
+  <p><h3><b>Phone Number</b></h3></p>
+  <input type="text" placeholder=" +234..." required>
+
+  <p><h3><b>Email</b></h3></p>
+  <input type="email" placeholder=" email">
+
+<hr>
+
+  <p><h2><b>Questions and Details:</b></h2></p>
+
+  <p><h3><b>Describe yourself in few words.</b></h3></p>
+  <textarea rows="4" cols="60" required></textarea>
+
+  <p><h3><b>What are the major skills you have aquired from working with us?</b></h3></p>
+  <textarea rows="2" cols="60" required></textarea>
+
+  <p><h3><b>What is your eduational qualifiation?</b></h3></p>
+  <textarea rows="2" cols="60" required></textarea>
+
+  <p><h3><b>Did you learn as much from your previous job?</b></h3></p>
+  <textarea rows="2" cols="60" required></textarea>
+
+  <p><h3><b>What is the most attractive feature of your job</b></h3></p>
+  <textarea rows="2" cols="60" required></textarea>
+
+  <p><h3><b>Where do you see yourself after few years with us?</b></h3></p>
+  <textarea rows="2" cols="60" required></textarea>
+
+  <p><h3><b>Overall, How satisfied are you with our customer service?</b></h3>
+
+   <div><input name="customer" type="radio" required>
+   <label for="Very satisfied">Very satisfied</label></div>
+
+   <div><input name="customer" type="radio">
+   <label for="Satisfied">Satisfied</label></div>
+
+   <div><input name="customer" type="radio">
+   <label for="Neutral">Neutral</label></div>
+ 
+   <div><input name="customer" type="radio">
+   <label for="Unsatisfied">Unsatisfied</label></div>
+
+   <div><input name="customer" type="radio">
+   <label for="Very unsatisfie">Very unsatisfied</label></div>
+
+   <div><input name="customer" type="radio">
+   <label for="N/A">N/A</label></div>
+  </p>
+
+ <hr>
+
+ <p><h2><b>Satisfactory Question:</b></h2></p>
+
+ <p><h3><b>Would you reccomend our product and services to a friend?</b></h3>
+
+   <div><input name="serv" type="radio" required>
+   <label for="yes">yes</label></div>
+
+   <div><input name="serv" type="radio">
+   <label for="no">no</label></div>
+
+   <div><input name="serv" type="radio">
+   <label for="maybe">maybe</label></div>
+  </p>
+
+
+  <p><h3><b>What aspect of our product and services were you most satisfied by?</b></h3>
+
+   <div><input name="satis" type="radio" required>
+   <label for="Quality">Quality</label></div>
+
+   <div><input name="satis" type="radio">
+   <label for="Quantity">Quantity</label></div>
+
+   <div><input name="satis" type="radio">
+   <label for="Prie">Price</label></div>
+
+   <div><input name="satis" type="radio">
+   <label for="Customer service">Customer service</label></div>
+  </p>
+
+
+
+  
+   <p><label for="date"><b>Date:</b></label>
+   <input id="date" type="date" required></p>
+    <div><label for="fill">I filled this form with utmost sincerity</label>
+    <input id="fill" type="checkbox" required></div>
+
+ 
+  <p><input id="butt" type="submit"></p>
+ </form>
+</body>
+</html>
